@@ -1,0 +1,9 @@
+.vs/
+src/ConsoleApp1/bin/
+src/ConsoleApp1/obj/
+src/QuEve.Core/bin/
+src/QuEve.Core/obj/
+src/QuEve.Infrastructure/bin/
+src/QuEve.Infrastructure/obj/
+src/QuEve.Web/bin/
+src/QuEve.Web/obj/

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-QuEve.Web-90FE0940-FE72-4D28-87A1-A958320B273B</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\EVEStandard\EVEStandard\EVEStandard.csproj" />
+    <ProjectReference Include="..\QuEve.Core\QuEve.Core.csproj" />
+    <ProjectReference Include="..\QuEve.Infrastructure\QuEve.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
